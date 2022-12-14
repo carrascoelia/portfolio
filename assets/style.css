@@ -6,8 +6,7 @@ h2 {
 
 .navbar-brand {
 font-size: 30px;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-}
+padding: 20px;}
 
 aside {
     float: left;
@@ -19,13 +18,11 @@ aside {
   }
 
   .container {
-    width: 968px;
-    margin: 0 auto;
+    position: center;
+    width: auto;
     background-color: #c4bcb5c7;
-    margin-top: 60px;
-    outline: 1px solid black;
-    padding: 20px;
-    text-align: center;
+    border:rgb(58, 58, 63);
+    padding: 40px;
   }
 
  
@@ -35,6 +32,7 @@ aside {
     line-height: 32px;
     background-image: url("./floor-tile.png")
   }
+
 
  
 
@@ -48,6 +46,17 @@ footer {
     padding: 20px;
     color:#bcbcbd;
 }
+
+
+
+img {
+  float: left;
+  width: 400px;
+  height: 250px;
+  margin-right: 100px;
+  text-align: center;
+}
+
 
 
 @media (min-width: 600px) {
